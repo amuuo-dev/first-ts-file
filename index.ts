@@ -6,7 +6,7 @@ const container = document.querySelector('.container')  as HTMLDivElement
 import {showTotalReview,populateUser,getTopTwoReviews} from "./utilities"
 import { Permissions, loyaltyUser } from './enums'
 import { Review, Property } from "./interfaces"
-import MainProperty from "./images/classes"
+import MainProperty from "./classes"
 
 let isLoggedIn: boolean
 
